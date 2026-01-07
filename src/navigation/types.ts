@@ -1,0 +1,22 @@
+export type RootStackParamList = {
+  Splash: undefined;
+  SignIn: undefined;
+  Home: undefined;
+  KnowledgeHub: undefined;
+  StorageInsects: undefined;
+  PrimaryInsectsList: undefined;
+  SecondaryInsectsList: undefined;
+  InsectDetail: { insect: any };
+  SourcesOfInfestation: undefined;
+  MethodsOfDetection: undefined;
+  ControlMeasures: undefined;
+  PreventiveMeasure: undefined;
+  CurativeMeasure: undefined;
+  ChemicalMethod: undefined;
+  NonChemicalMethod: undefined;
+  FumigantRecommendations: undefined;
+  LiveInsectDetection: undefined;
+  SafeStorageGuidelines: undefined;
+  PulsesStorage: undefined;
+  SpicesStorage: undefined;
+};
